@@ -29,161 +29,67 @@ namespace ConstruccionInterfaz
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.mBAgregar = new MetroFramework.Controls.MetroButton();
-            this.mCID = new MetroFramework.Controls.MetroComboBox();
-            this.metroLaber1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.mCProductos = new MetroFramework.Controls.MetroComboBox();
-            this.mCOfertas = new MetroFramework.Controls.MetroComboBox();
-            this.mCDescripcion = new MetroFramework.Controls.MetroComboBox();
-            this.mBEliminar = new MetroFramework.Controls.MetroButton();
-            this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.mbAgregar = new MetroFramework.Controls.MetroButton();
+            this.label = new MetroFramework.Controls.MetroLabel();
+            this.label2 = new MetroFramework.Controls.MetroLabel();
+            this.label3 = new MetroFramework.Controls.MetroLabel();
+            this.mbEliminar = new MetroFramework.Controls.MetroButton();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtProductos = new System.Windows.Forms.TextBox();
+            this.txtOfertas = new System.Windows.Forms.TextBox();
+            this.txtPrecios = new System.Windows.Forms.TextBox();
+            this.dgtCatalogos = new System.Windows.Forms.DataGridView();
+            this.label4 = new MetroFramework.Controls.MetroLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.dgtCatalogos)).BeginInit();
             this.SuspendLayout();
             // 
-            // mBAgregar
+            // mbAgregar
             // 
-            this.mBAgregar.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.mBAgregar.Location = new System.Drawing.Point(431, 330);
-            this.mBAgregar.Name = "mBAgregar";
-            this.mBAgregar.Size = new System.Drawing.Size(75, 23);
-            this.mBAgregar.TabIndex = 0;
-            this.mBAgregar.Text = "Agregar";
-            this.mBAgregar.UseSelectable = true;
+            this.mbAgregar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.mbAgregar.Location = new System.Drawing.Point(450, 318);
+            this.mbAgregar.Name = "mbAgregar";
+            this.mbAgregar.Size = new System.Drawing.Size(75, 23);
+            this.mbAgregar.TabIndex = 0;
+            this.mbAgregar.Text = "Agregar";
+            this.mbAgregar.UseSelectable = true;
             // 
-            // mCID
+            // label
             // 
-            this.mCID.FormattingEnabled = true;
-            this.mCID.ItemHeight = 23;
-            this.mCID.Location = new System.Drawing.Point(212, 86);
-            this.mCID.Name = "mCID";
-            this.mCID.Size = new System.Drawing.Size(177, 29);
-            this.mCID.TabIndex = 1;
-            this.mCID.UseSelectable = true;
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(81, 96);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(75, 19);
+            this.label.TabIndex = 2;
+            this.label.Text = "CatalogoID";
             // 
-            // metroLaber1
+            // label2
             // 
-            this.metroLaber1.AutoSize = true;
-            this.metroLaber1.Location = new System.Drawing.Point(81, 96);
-            this.metroLaber1.Name = "metroLaber1";
-            this.metroLaber1.Size = new System.Drawing.Size(75, 19);
-            this.metroLaber1.TabIndex = 2;
-            this.metroLaber1.Text = "CatalogoID";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(81, 144);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 19);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Productos";
             // 
-            // metroLabel2
+            // label3
             // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(81, 144);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(68, 19);
-            this.metroLabel2.TabIndex = 3;
-            this.metroLabel2.Text = "Productos";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(81, 201);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 19);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Ofertas";
             // 
-            // metroLabel3
+            // mbEliminar
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(81, 201);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(53, 19);
-            this.metroLabel3.TabIndex = 4;
-            this.metroLabel3.Text = "Ofertas";
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(81, 257);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(76, 19);
-            this.metroLabel4.TabIndex = 5;
-            this.metroLabel4.Text = "Descripcion";
-            // 
-            // mCProductos
-            // 
-            this.mCProductos.FormattingEnabled = true;
-            this.mCProductos.ItemHeight = 23;
-            this.mCProductos.Location = new System.Drawing.Point(212, 144);
-            this.mCProductos.Name = "mCProductos";
-            this.mCProductos.Size = new System.Drawing.Size(177, 29);
-            this.mCProductos.TabIndex = 8;
-            this.mCProductos.UseSelectable = true;
-            // 
-            // mCOfertas
-            // 
-            this.mCOfertas.FormattingEnabled = true;
-            this.mCOfertas.ItemHeight = 23;
-            this.mCOfertas.Location = new System.Drawing.Point(212, 201);
-            this.mCOfertas.Name = "mCOfertas";
-            this.mCOfertas.Size = new System.Drawing.Size(177, 29);
-            this.mCOfertas.TabIndex = 9;
-            this.mCOfertas.UseSelectable = true;
-            // 
-            // mCDescripcion
-            // 
-            this.mCDescripcion.FormattingEnabled = true;
-            this.mCDescripcion.ItemHeight = 23;
-            this.mCDescripcion.Location = new System.Drawing.Point(212, 257);
-            this.mCDescripcion.Name = "mCDescripcion";
-            this.mCDescripcion.Size = new System.Drawing.Size(177, 29);
-            this.mCDescripcion.TabIndex = 10;
-            this.mCDescripcion.UseSelectable = true;
-            // 
-            // mBEliminar
-            // 
-            this.mBEliminar.Location = new System.Drawing.Point(657, 330);
-            this.mBEliminar.Name = "mBEliminar";
-            this.mBEliminar.Size = new System.Drawing.Size(75, 23);
-            this.mBEliminar.TabIndex = 11;
-            this.mBEliminar.Text = "Eliminar";
-            this.mBEliminar.UseSelectable = true;
-            // 
-            // metroGrid1
-            // 
-            this.metroGrid1.AllowUserToResizeRows = false;
-            this.metroGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.metroGrid1.EnableHeadersVisualStyles = false;
-            this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.metroGrid1.Location = new System.Drawing.Point(431, 86);
-            this.metroGrid1.Name = "metroGrid1";
-            this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.metroGrid1.Size = new System.Drawing.Size(301, 200);
-            this.metroGrid1.TabIndex = 12;
+            this.mbEliminar.Location = new System.Drawing.Point(784, 318);
+            this.mbEliminar.Name = "mbEliminar";
+            this.mbEliminar.Size = new System.Drawing.Size(75, 23);
+            this.mbEliminar.TabIndex = 11;
+            this.mbEliminar.Text = "Eliminar";
+            this.mbEliminar.UseSelectable = true;
+            this.mbEliminar.Click += new System.EventHandler(this.mbEliminar_Click);
             // 
             // metroLabel1
             // 
@@ -195,26 +101,74 @@ namespace ConstruccionInterfaz
             this.metroLabel1.TabIndex = 13;
             this.metroLabel1.Text = "Catalogo";
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(207, 96);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(193, 20);
+            this.txtId.TabIndex = 15;
+            // 
+            // txtProductos
+            // 
+            this.txtProductos.Location = new System.Drawing.Point(207, 144);
+            this.txtProductos.Name = "txtProductos";
+            this.txtProductos.Size = new System.Drawing.Size(193, 20);
+            this.txtProductos.TabIndex = 16;
+            // 
+            // txtOfertas
+            // 
+            this.txtOfertas.Location = new System.Drawing.Point(207, 201);
+            this.txtOfertas.Name = "txtOfertas";
+            this.txtOfertas.Size = new System.Drawing.Size(193, 20);
+            this.txtOfertas.TabIndex = 17;
+            // 
+            // txtPrecios
+            // 
+            this.txtPrecios.Location = new System.Drawing.Point(207, 257);
+            this.txtPrecios.Name = "txtPrecios";
+            this.txtPrecios.Size = new System.Drawing.Size(193, 20);
+            this.txtPrecios.TabIndex = 18;
+            // 
+            // dgtCatalogos
+            // 
+            this.dgtCatalogos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgtCatalogos.Location = new System.Drawing.Point(450, 96);
+            this.dgtCatalogos.Name = "dgtCatalogos";
+            this.dgtCatalogos.Size = new System.Drawing.Size(409, 181);
+            this.dgtCatalogos.TabIndex = 19;
+            this.dgtCatalogos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgtCatalogos_CellContentClick);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(81, 258);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 19);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Precios";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(904, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.dgtCatalogos);
+            this.Controls.Add(this.txtPrecios);
+            this.Controls.Add(this.txtOfertas);
+            this.Controls.Add(this.txtProductos);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.metroGrid1);
-            this.Controls.Add(this.mBEliminar);
-            this.Controls.Add(this.mCDescripcion);
-            this.Controls.Add(this.mCOfertas);
-            this.Controls.Add(this.mCProductos);
-            this.Controls.Add(this.metroLabel4);
-            this.Controls.Add(this.metroLabel3);
-            this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.metroLaber1);
-            this.Controls.Add(this.mCID);
-            this.Controls.Add(this.mBAgregar);
+            this.Controls.Add(this.mbEliminar);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.mbAgregar);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
+            this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgtCatalogos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,17 +176,17 @@ namespace ConstruccionInterfaz
 
         #endregion
 
-        private MetroFramework.Controls.MetroButton mBAgregar;
-        private MetroFramework.Controls.MetroComboBox mCID;
-        private MetroFramework.Controls.MetroLabel metroLaber1;
-        private MetroFramework.Controls.MetroLabel metroLabel2;
-        private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroComboBox mCProductos;
-        private MetroFramework.Controls.MetroComboBox mCOfertas;
-        private MetroFramework.Controls.MetroComboBox mCDescripcion;
-        private MetroFramework.Controls.MetroButton mBEliminar;
-        private MetroFramework.Controls.MetroGrid metroGrid1;
+        private MetroFramework.Controls.MetroButton mbAgregar;
+        private MetroFramework.Controls.MetroLabel label;
+        private MetroFramework.Controls.MetroLabel label2;
+        private MetroFramework.Controls.MetroLabel label3;
+        private MetroFramework.Controls.MetroButton mbEliminar;
         private MetroFramework.Controls.MetroLabel metroLabel1;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.TextBox txtProductos;
+        private System.Windows.Forms.TextBox txtOfertas;
+        private System.Windows.Forms.TextBox txtPrecios;
+        private System.Windows.Forms.DataGridView dgtCatalogos;
+        private MetroFramework.Controls.MetroLabel label4;
     }
 }

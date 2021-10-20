@@ -27,7 +27,6 @@ C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.csprojAssemblyReference.cache
-C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.fmrMenu.resources
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.Properties.Resources.resources
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.csproj.GenerateResource.cache
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.csproj.CoreCompileInputs.cache
@@ -35,3 +34,5 @@ C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.exe
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.pdb
 C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.frmTest.resources
+C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.frmMenu.resources
+C:\Users\LENOVO\Desktop\Trabajos de program\Trabajos de C#\ConstruccionInterfaz\obj\Debug\ConstruccionInterfaz.Form2.resources
